@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/clima/static/js/main.81d0b708.js",
+    "main.js": "/clima/static/js/main.c0c23ba6.js",
     "index.html": "/clima/index.html",
-    "main.81d0b708.js.map": "/clima/static/js/main.81d0b708.js.map"
+    "main.c0c23ba6.js.map": "/clima/static/js/main.c0c23ba6.js.map"
   },
   "entrypoints": [
-    "static/js/main.81d0b708.js"
+    "static/js/main.c0c23ba6.js"
   ]
 }
