@@ -2,7 +2,7 @@
   "name": "clima-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vitorfuster.github.io/clima.git",
+  "homepage": "https://vitorfuster.github.io/clima",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.6.4",
@@ -45,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

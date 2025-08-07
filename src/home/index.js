@@ -47,7 +47,7 @@ function Home() {
     const cidadepesquisada = pesquisaTexto.current.value;
     try {
       const { data } = await axios.get(
-        `http://api.weatherapi.com/v1/forecast.json?key=7e60ecf0d2874ac8a5a223638250508&q=${cidadepesquisada}&days=6&lang=pt`
+        `https://api.weatherapi.com/v1/forecast.json?key=7e60ecf0d2874ac8a5a223638250508&q=${cidadepesquisada}&days=6&lang=pt`
       );
 
       const cidadePais = data.location.country;
@@ -101,7 +101,7 @@ function Home() {
     cidadesPadrao.map((cidade) => {
       const BuscarClima = async () => {
         const { data } = await axios.get(
-          `http://api.weatherapi.com/v1/forecast.json?key=7e60ecf0d2874ac8a5a223638250508&q=${cidade}&days=1&lang=pt`
+          `https://api.weatherapi.com/v1/forecast.json?key=7e60ecf0d2874ac8a5a223638250508&q=${cidade}&days=1&lang=pt`
         );
         const tempMaxima = data.forecast.forecastday[0].day.maxtemp_c;
         const tempMinima = data.forecast.forecastday[0].day.mintemp_c;
