@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# 🌤️ Projeto Clima
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Status](https://img.shields.io/badge/Status-Ativo-success?style=flat-square)
+![React](https://img.shields.io/badge/React-18.0.0-61DAFB?style=flat-square&logo=react)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Weather API](https://img.shields.io/badge/API-WeatherAPI-purple?style=flat-square)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔗 Deploy
+Acesse a versão online do projeto:  
+**[Ver Deploy](https://vitorfuster.github.io/clima/)**
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📌 Sobre o projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O **Projeto Clima** é uma aplicação **React** que exibe dados **em tempo real** sobre condições climáticas de diferentes localidades.  
+A aplicação consome dados da **[WeatherAPI](https://www.weatherapi.com/)** e apresenta as informações de forma **responsiva e adaptada** para diferentes tamanhos de tela.
 
-### `npm test`
+💡 Essa foi **a primeira aplicação que desenvolvi totalmente sozinho**, sem instruções de professores ou cursos. A ideia foi retirada de um post de desafios que encontrei pelo LinkedIn, passei por algumas dificuldades com consumo de APIs, pois foi a primeira vez que fiz também, porém, em geral, tudo ocorreu muito bem, foi um ótimo aprendizado no final :)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🖼️ Demonstração
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 💻 Versão Desktop
+<img src="https://github.com/Vitorfuster/clima/blob/main/img/img-git/Desktop-site.png" width="700" alt="Versão Desktop - Tela Inicial">
+<img src="https://github.com/Vitorfuster/clima/blob/main/img/img-git/Desktop-site-pesquisa.png" width="700" alt="Versão Desktop - Pesquisa">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📱 Versão Mobile
+<img src="https://github.com/Vitorfuster/clima/blob/main/img/img-git/Celular-site.jpeg" width="300" alt="Versão Mobile - Tela Inicial">&nbsp;&nbsp;<img src="https://github.com/Vitorfuster/clima/blob/main/img/img-git/Celular-site-pesquisa.jpeg" width="300" alt="Versão Mobile - Pesquisa">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Funcionalidades
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 🔍 Busca de condições climáticas por cidade ou região  
+- 📅 Exibição de previsão do tempo  
+- 📱 Layout **responsivo** para diferentes dispositivos  
+- 🌎 Dados **em tempo real** via WeatherAPI
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Tecnologias utilizadas
 
-## Learn More
+- **HTML**  
+- **CSS**  
+- **JavaScript**  
+- **React**  
+- Outras bibliotecas auxiliares (conforme necessário)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🧠 Habilidades aplicadas
 
-### Code Splitting
+- Estruturação de página (**HTML**, **React**)  
+- Estilização (**CSS**, **React**)  
+- Lógica da interface (**JavaScript**, **React**)  
+- Gerenciamento de estado (**React States**)  
+- Consumo de APIs (**axios**)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+💡 *Desenvolvido por [Vitor Fuster](https://github.com/Vitorfuster)*
