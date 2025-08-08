@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const ContainerGeral = styled.div`
-  display: grid;
+  /* display: grid; */
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, #ff7a21ff, #e0d201ff);
-  height: 100vh;
   width: 100%;
+  height: 100%;
   padding: 0px;
 
   @media (max-width: 600px) {
@@ -16,9 +15,11 @@ export const ContainerGeral = styled.div`
 
 export const ConteudoMain = styled.main`
   display: grid;
-  grid-template-rows: 1fr 1.3fr;
+  background: linear-gradient(180deg, #ff7a21ff, #e0d201ff);
+  background-size: cover;
+  height: 100%;
+
   justify-content: center;
-  max-height: 100vh;
   @media (max-width: 600px) {
     width: 100%;
   }
@@ -205,7 +206,9 @@ export const BotaoBarra = styled.button`
   }
 `;
 
-export const ResultadoContainer = styled.div``;
+export const ResultadoContainer = styled.div`
+  height: 100%;
+`;
 
 export const SubTituloMain = styled.h2`
   grid-column: 1 / -1;

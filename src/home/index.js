@@ -80,7 +80,6 @@ function Home() {
           const data = format(new Date(day.date), "EEEE", {
             locale: ptBR,
           });
-          console.log(data);
           const min = day.day.mintemp_c;
           const max = day.day.maxtemp_c;
           const minMax = { data, min, max };
@@ -89,7 +88,6 @@ function Home() {
       });
 
       tempDaysState(attTempDayArray);
-      console.log(tempDays);
 
       pesquisaState([cidadeClima]);
     } catch (error) {

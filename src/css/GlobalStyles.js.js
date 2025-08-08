@@ -41,6 +41,13 @@ const GlobalStyle = createGlobalStyle`
      --fAltaX: 1.8rem;
     }
   }
+html, body, #root {
+   height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
 
 * {
   margin: 0px;
